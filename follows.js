@@ -13,7 +13,7 @@
 	*/
 
 	var defaultKey		= '6eJjvDZ2k3ETgiUx2wH4H8mi0p4m5TpNrAcmAFmNGMeNrF3h', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [1030544645,1030544645], // Comma separated array of Xively Feed ID numbers
+		defaultFeeds	= [1030544645], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Temperature Monitoring', // Replaces Xively logo in the header
 		dataDuration	= '30days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
