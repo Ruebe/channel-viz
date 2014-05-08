@@ -373,9 +373,9 @@
 		$('#form').hide();
 	}
 
-	var today = new Date(today.getTime()+1000*60*60*8);
-	var yesterday = new Date(today.getTime()-(1000*60*60*24*1)+(1000*60*60*8));
-	var lastWeek = new Date(today.getTime()-(1000*60*60*24*7)+(1000*60*60*8));
+	var today = new Date();
+	var yesterday = new Date(today.getTime()-1000*60*60*24*1);
+	var lastWeek = new Date(today.getTime()-1000*60*60*24*7);
 
 	var key = getParam('key');
 	var feedString = getParam('feeds');
